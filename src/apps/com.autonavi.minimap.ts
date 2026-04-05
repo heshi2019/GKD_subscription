@@ -226,7 +226,7 @@ export default defineGkdApp({
           fastQuery: true,
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
           matches: '@ImageView[_id=149】[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/snapshot/1775294121426',
+
         },
       ],
     },
