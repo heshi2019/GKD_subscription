@@ -223,9 +223,8 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
-          fastQuery: true,
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
-          matches: '@ImageView[depth=28][top=2812][clickable=true]',
+          matches: 'ImageView[depth=28][top=2812]',
           exampleUrls: 'https://e.gkd.li/60de2a12-a624-4413-8b4c-4aa188beb892',
           snapshotUrls: 'https://i.gkd.li/i/26488586',
         },
