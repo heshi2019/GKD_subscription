@@ -214,7 +214,7 @@ export default defineGkdApp({
         },
       ],
     },
-        {
+    {
       key: 17,
       name: '局部广告-打车广告',
       desc: '点击关闭',
