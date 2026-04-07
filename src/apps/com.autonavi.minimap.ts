@@ -221,7 +221,8 @@ export default defineGkdApp({
       rules: [
         {
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
-          matches:'ScrollView[index=2] >7 ViewGroup[index=1] >8 ViewGroup[index=1][childCount=1] > @ImageView[index=0][visibleToUser=true]',
+          matches:
+            'ScrollView[index=2] >7 ViewGroup[index=1] >8 ViewGroup[index=1][childCount=1] > @ImageView[index=0][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/60de2a12-a624-4413-8b4c-4aa188beb892',
           snapshotUrls: 'https://i.gkd.li/i/26488586',
         },
@@ -234,7 +235,8 @@ export default defineGkdApp({
       rules: [
         {
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
-          matches: 'ViewGroup[index=0][childCount=3] > ViewGroup[index=1] > ImageView[desc="关闭"]',
+          matches:
+            'ViewGroup[index=0][childCount=3] > ViewGroup[index=1] > ImageView[desc="关闭"]',
           exampleUrls: 'https://e.gkd.li/37244ee4-4422-48e4-b376-2a2fe520a41b',
           snapshotUrls: 'https://i.gkd.li/i/26539695',
         },
