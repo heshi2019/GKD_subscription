@@ -225,7 +225,7 @@ export default defineGkdApp({
         {
           activityIds: 'com.autonavi.map.activity.NewMapActivity',
           matches:
-            'ScrollView[index=2] >7 ViewGroup[index=1] >8 ViewGroup[index=1][childCount=1] > ImageView[index=0]',
+            'ScrollView[index=2] >7 ViewGroup[index=1] >8 ViewGroup[index=1][childCount=1] > ImageView[index=0][clickable=true][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/60de2a12-a624-4413-8b4c-4aa188beb892',
           snapshotUrls: 'https://i.gkd.li/i/26488586',
         },
