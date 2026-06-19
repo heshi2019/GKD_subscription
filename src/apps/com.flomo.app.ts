@@ -17,6 +17,19 @@ export default defineGkdApp({
           ],
           snapshotUrls: 'https://i.gkd.li/i/23935802',
         },
+
+        // ✅ 新增：展开按钮自动点击
+        {
+          name: '自动点击展开',
+          fastQuery: true,
+          activityIds: '.ui.activity.MainActivity',
+          matches: [
+            '[vid="expand"]',
+            '[text="展开"]',
+            '[id="com.flomo.app:id/expand"]'
+          ],
+          snapshotUrls: 'https://i.gkd.li/i/48f9c71d-cd26-407c-9b2a-55290c1ddcba.json',
+        },
       ],
     },
   ],
