@@ -26,7 +26,7 @@ export default defineGkdApp({
           matches: [
             '[vid="expand"]',
             '[text="展开"]',
-            '[id="com.flomo.app:id/expand"]'
+            '[id="com.flomo.app:id/expand"]',
           ],
         },
       ],
