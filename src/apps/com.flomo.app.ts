@@ -28,7 +28,6 @@ export default defineGkdApp({
             '[text="展开"]',
             '[id="com.flomo.app:id/expand"]'
           ],
-          snapshotUrls: 'https://i.gkd.li/i/48f9c71d-cd26-407c-9b2a-55290c1ddcba.json',
         },
       ],
     },
